@@ -221,3 +221,9 @@ Microsoft IQ Integration: **Foundry IQ** via Azure OpenAI gpt-4o-mini
 - Generates root cause hypotheses with 85% confidence via Azure Foundry IQ
 - Produces actionable mitigation scripts automatically classified by severity
 - Full incident lifecycle from detection to report in under 60 seconds
+
+### 📺 Live Platform Demo
+
+[![Watch the Demo](https://img.youtube.com/vi/zjrkSXNalO8/maxresdefault.jpg)](https://www.youtube.com/watch?v=zjrkSXNalO8)
+
+
