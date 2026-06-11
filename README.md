@@ -117,18 +117,18 @@ The Streamlit dashboard provides:
 
 ## Tech Stack
 
-| Component | Technology |
-|---|---|
-| Language | Python 3.11 |
-| Live data | Yahoo Finance via yfinance |
-| Drift detection | Population Stability Index (PSI) |
-| Agent orchestration | Microsoft Azure Foundry IQ |
-| AI model | gpt-4o-mini |
-| Schema validation | Pydantic v2 |
-| Pipeline | AsyncIO |
-| Terminal output | Rich |
-| Dashboard | Streamlit + Plotly |
-| PDF export | ReportLab |
+ Component | Technology |
+
+ Language - Python 3.11 
+ Live data - Yahoo Finance via yfinance 
+ Drift detection - Population Stability Index (PSI) 
+ Agent orchestration - Microsoft Azure Foundry IQ 
+ AI model - gpt-4o-mini 
+ Schema validation - Pydantic v2 
+ Pipeline - AsyncIO 
+ Terminal output- Rich 
+ Dashboard  Streamlit + Plotly
+ PDF export - ReportLab
 
 ---
 
