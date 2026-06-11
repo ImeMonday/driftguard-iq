@@ -44,7 +44,8 @@ DriftGuard IQ is a production-grade autonomous multi-agent system that:
 │  │                 │     │  Agent 2: Root Cause Analysis │  │
 │  │  PSI Calculator │     │                               │  │
 │  │  5 Features     │     │  Agent 3: Revenue Impact      │  │
-│  │  5 Tickers      │     │  Scoring                      │  │
+│  │  5 Tickers      │     │  Scoring        
+│  │
 │  └─────────────────┘     └───────────────┬───────────────┘  │
 │                                          │                  │
 │                          ┌───────────────▼───────────────┐  │
