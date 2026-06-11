@@ -33,30 +33,26 @@ DriftGuard IQ is a production-grade autonomous multi-agent system that:
 
 ## Architecture
 ┌─────────────────────────────────────────────────────────────┐
-│                      DRIFTGUARD IQ                          │
+│                        DRIFTGUARD IQ                        │
 │                                                             │
-│  ┌─────────────────┐     ┌───────────────────────────────┐  │
-│  │  DETECTION      │────▶│   REASONING LAYER             │  │
-│  │  LAYER          │     │   Microsoft Azure Foundry IQ  │  │
-│  │                 │     │                               │  │
-│  │  Yahoo Finance  │     │  Agent 1: Feature Isolation   │  │
-│  │  Live Data      │     │                               │  │
-│  │                 │     │  Agent 2: Root Cause Analysis │  │
-│  │  PSI Calculator │     │                               │  │
-│  │  5 Features     │     │  Agent 3: Revenue Impact      │  │
-│  │  5 Tickers      │     │  Scoring        
-│  │
-│  └─────────────────┘     └───────────────┬───────────────┘  │
-│                                          │                  │
-│                          ┌───────────────▼───────────────┐  │
-│                          │      ACTION LAYER             │  │
-│                          │                               │  │
-│                          │  Pydantic Validated Report    │  │
-│                          │  Mitigation Script Generator  │  │
-│                          │  Streamlit Dashboard          │  │
-│                          │  PDF Export                   │  │
-│                          └───────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────┘
+│  ┌─────────────────┐       ┌─────────────────────────────┐  │
+│  │ DETECTION LAYER │──────▶│       REASONING LAYER       │  │
+│  ├─────────────────┤       ├─────────────────────────────┤  │
+│  │ • Yahoo Finance │       │ • Azure Foundry IQ Engine   │  │
+│  │ • 5 Tickers Live │       │ • Agent 1: Isolation        │  │
+│  │ • PSI Calculator│       │ • Agent 2: Root Cause       │  │
+│  │ • 5 Feature Drift│      │ • Agent 3: Revenue Impact   │  │
+│  └─────────────────┘       └──────────────┬──────────────┘  │
+│                                           │                 │
+│                            ┌──────────────▼──────────────┐  │
+│                            │        ACTION LAYER         │  │
+│                            ├─────────────────────────────┤  │
+│                            │ • Pydantic Validated Report │  │
+│                            │ • Dynamic Mitigation Scripts│  │
+│                            │ • Streamlit Analytics Panel │  │
+│                            │ • PDF Forensic Export       │  │
+│                            └─────────────────────────────┘  │
+└────────────────────────────────────────────────────────────
 ---
 
 ## How It Works
@@ -117,7 +113,7 @@ The Streamlit dashboard provides:
 
 ## Tech Stack
 
- Component | Technology |
+ Component - Technology
 
  Language - Python 3.11 
  Live data - Yahoo Finance via yfinance 
